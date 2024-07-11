@@ -1,18 +1,4 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -515,23 +501,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #CHAPTERS
-\*-----------------------------------*/
-
-.chapter-card {
-  height: 100%;
-  background-color: var(--white);
-  padding: 25px;
-  border-radius: var(--radius-5);
-  box-shadow: var(--shadow-2);
-  transition: var(--transition-2);
-}
-
-.chapter-card:is(:hover, :focus-within) { transform: translateY(-10px); }
-
-.chapter-card .card-title { margin-block-end: 15px; }
-
 
 
 
@@ -586,9 +555,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #PRICING
-\*-----------------------------------*/
 
 .pricing-card {
   padding: 40px 50px;
@@ -989,13 +955,8 @@ textarea.input-field {
 
 
 
-  /**
-   * ACHIEVEMENT
-   */
+   
 
-  .achievement-card { flex-direction: column; }
-
-  .achievement-card > * { width: 100%; }
 
 
 
